@@ -1,0 +1,1 @@
+go test -bench . gin_test.go
