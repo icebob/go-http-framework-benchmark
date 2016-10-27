@@ -6,9 +6,8 @@ import (
 )
 
 type JsonReq struct {
-	Action string `json:"action"`
-	Num1   int    `json:"num1"`
-	Num2   int    `json:"num2"`
+	Num1 int `json:"num1"`
+	Num2 int `json:"num2"`
 }
 
 type JsonRes struct {
@@ -25,7 +24,7 @@ func Add(num1, num2 int) int {
 
 var letterRunes = []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
-var methods = []string{"GET", "POST", "PUT", "DELETE"}
+var methods = []string{"GET", "POST"}
 
 func RandString(n int) string {
 	b := make([]rune, n)
