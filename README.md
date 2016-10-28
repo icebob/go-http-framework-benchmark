@@ -10,6 +10,7 @@ Go (Golang) HTTP framework benchmark test
 * [Iris](https://github.com/kataras/iris)
 * [martini](https://github.com/go-martini/martini)
 * [Beego](https://beego.me/)
+* [Golf](https://github.com/dinever/golf)
  
 ## Result
-[![Result](https://cloud.highcharts.com/images/ynilade/11/800.png)](http://cloud.highcharts.com/show/ynilade)
+[![Result](https://cloud.highcharts.com/images/ynilade/12/800.png)](http://cloud.highcharts.com/show/ynilade)
